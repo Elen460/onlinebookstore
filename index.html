@@ -13,7 +13,8 @@
     <title>Bookstore</title>
   </head>
   <body>
-    
+   
+   <div class="container-fluid">
    
 
 
@@ -22,33 +23,37 @@
     <!--______________________________Contact____________________________________________________________________________________________________________ -->
 
 
-<div class="d-none d-sm-none d-md-block col-7 "> 
-      </div>     
 
-<select class="d-none d-md-block align-self-center p-2 flex-fill bd-highlight custom-select col-1" style="width:100px;" name="contact" >
+
+
+<div class="d-none d-md-block  bd-highlight  col-2">
+<select   name="contact" >
         <option value="ph"> Phone XXXXXXXX</option>
         <option value="gm"> Mail mail@gmail.com</option>
         
     </select>
-
+</div>
 
 <!--______________________Language_______________________________________________________________________________________________________________ -->
-    <select class="align-self-center p-2 flex-fill bd-highlight custom-select d-block col-md-2 col-5" style="width:100px;" >
-        <option selected >English</option>
+<div class=" bd-highlight d-block col-md-3 col-5 ">
+    <select >
+        <option value="en" >English</option>
         <option value="am">Armenian</option>
         <option value="ru">Russian</option>
     </select>
+</div>
 <!--_________________Currency___________________________________________________________________________________________________________________________ -->
-
-  <select class="align-self-center  flex-fill  custom-select d-block col-md-2 col-5" style="width:100px;">
-        <option selected >Dollar</option>
+<div class=" d-block col-md-3 col-5 ">
+  <select >
+        <option value="dl" >Dollar</option>
         <option value="am">Dram</option>
         <option value="ru">Ruble</option>
         <option value="cn">Yuan</option>
         <option value="eu">Euro</option>
     </select>
+</div>
 <!--______________Wishlist__________________________________________________________________________________________________________________________ -->
-<div class="d-none d-lg-block col-1  align-self-center  col-md-1 d-none">
+<div class="d-none d-lg-block col-auto  m-auto ">
     <button type="button" class="btn btn-primary" style="margin:3px;">
      Wishlist <span class="badge badge-light">45</span>
     </button>
@@ -64,15 +69,15 @@
 
 <!-- _____Logo__________________________________________________________________________________________-->
   <p class="d-md-none d-sm-block col-sm-6 " style="font-family: 'Rock Salt', cursive; font-size:2em;">Bookstore</p>
-  <div class="d-none d-md-block col-6 col-lg-9">
-    <a href="#"><img src="https://i.pinimg.com/originals/2c/fc/93/2cfc93d7665f5d7728782700e50596e3.png" height="150" style="float:left;">
+  <div class="d-none d-md-block col-6 col-lg-7">
+    <a href="index.html"> <img src="https://i.pinimg.com/originals/2c/fc/93/2cfc93d7665f5d7728782700e50596e3.png" height="150" style="float:left;">
     </a> <br>
-    <p  class="d-none d-lg-block mb-0 mt-30" style="font-family: 'Rock Salt', cursive; font-size:40px;">Welcome to our Bookstore</p>
+    <p  class="d-none d-lg-block mb-0 mt-30" style="font-family: 'Rock Salt', cursive; font-size:30px;">Welcome to our Bookstore</p>
   </div>
   
   <!-- _________Search_________________________________________________________________________________________________________________________-->
 
-  <div class="d-none d-md-block col-md-3 col-lg-2"> 
+  <div class="d-none d-md-block col-auto m-auto"> 
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
@@ -82,7 +87,7 @@
 
 <!-- _____My_Account__________________________________________________________________________________________-->
 
- <div class="dropdown mt-2 mt-md-0 d-block col-6 col-md-2 col-lg-1 ">
+ <div class="dropdown m-auto d-block col-6 col-md-2 col-lg-1 ">
   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     My account
   </button>
@@ -285,14 +290,7 @@
     </div>
   </div>
 
-<div class="card m-5 ml-5 ml-md-1 d-none d-md-block col-2" style="width: 13rem; float:left;">
-  <img src="https://images-na.ssl-images-amazon.com/images/I/51Ec61j9+iL._AC_SX184_.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Still me</h5>
-    <p class="card-text">Jojo Moyers</p>
-    <p> &#36; 6</p>
-  </div>
-</div>
+
 
 </div>
 
@@ -301,8 +299,8 @@
  <!-- __Bestsellers____________________________________________________________________________-->
  <div class="row d-sm-block ">
   <div class="row ml-5 col-11" style="background-color:#FFC300 ;  ">
-        <div class="mr-5 ml-5 "  style:"float:left;">
-          <p class="col-sm-6 col-12 col-md-2" style="font-family: 'Lobster', cursive; font-size:5em;">Bestsellers </p>
+        <div class="mr-5 "  style:"float:left;">
+          <p class="col-sm-6 col-12 col-md-1" style="font-family: 'Lobster', cursive; font-size:4em;">Bestsellers </p>
           <hr>
           <p class="font-weight-bold" style="font-size:1em;">Only this month!All bestseller book for &#36;10 </p>
           <p class="font-weight-bold" style="font-size:2em;">Hurry up to get them</p>
@@ -310,7 +308,7 @@
         </div>
       
 <!-- ______________________________________________________________________________-->
-  <div class="ml-5 mt-1 mt-md-4 d-sm-block col-sm-4 col-md-2" style="  float:left;">
+  <div class="ml-5 mt-1 mt-md-5 d-sm-block col-sm-4 col-md-2" style="float:left;">
      <a href="#"><img src="https://covers.openlibrary.org/w/id/8569284-M.jpg" class="card-img-top" alt="...">
       </a>
 
@@ -487,7 +485,7 @@
     </div>
 
 
-
+</div> 
 
 
 
