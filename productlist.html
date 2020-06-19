@@ -14,39 +14,46 @@
     <title>Productlist</title>
   </head>
   <body>
-    <!--_______________________Header________________________________________ -->
- <div class="header">
+     <div class="container-fluid">
+   
+
+
+<div class="header">
   <div class="row bg-light">
     <!--______________________________Contact____________________________________________________________________________________________________________ -->
 
 
-<div class="d-none d-sm-none d-md-block col-7 "> 
-      </div>     
 
-<select class="d-none d-md-block align-self-center p-2 flex-fill bd-highlight custom-select col-1" style="width:100px;" name="contact" >
+
+
+<div class="d-none d-md-block  bd-highlight  col-2">
+<select   name="contact" >
         <option value="ph"> Phone XXXXXXXX</option>
         <option value="gm"> Mail mail@gmail.com</option>
         
     </select>
-
+</div>
 
 <!--______________________Language_______________________________________________________________________________________________________________ -->
-    <select class="align-self-center p-2 flex-fill bd-highlight custom-select d-block col-md-2 col-5" style="width:100px;" >
-        <option selected >English</option>
+<div class=" bd-highlight d-block col-md-3 col-5 ">
+    <select >
+        <option value="en" >English</option>
         <option value="am">Armenian</option>
         <option value="ru">Russian</option>
     </select>
+</div>
 <!--_________________Currency___________________________________________________________________________________________________________________________ -->
-
-  <select class="align-self-center  flex-fill  custom-select d-block col-md-2 col-5" style="width:100px;">
-        <option selected >Dollar</option>
+<div class=" d-block col-md-3 col-5 ">
+  <select >
+        <option value="dl" >Dollar</option>
         <option value="am">Dram</option>
         <option value="ru">Ruble</option>
         <option value="cn">Yuan</option>
         <option value="eu">Euro</option>
     </select>
+</div>
 <!--______________Wishlist__________________________________________________________________________________________________________________________ -->
-<div class="d-none d-lg-block col-1  align-self-center  col-md-1 d-none">
+<div class="d-none d-lg-block col-auto  m-auto ">
     <button type="button" class="btn btn-primary" style="margin:3px;">
      Wishlist <span class="badge badge-light">45</span>
     </button>
@@ -62,15 +69,15 @@
 
 <!-- _____Logo__________________________________________________________________________________________-->
   <p class="d-md-none d-sm-block col-sm-6 " style="font-family: 'Rock Salt', cursive; font-size:2em;">Bookstore</p>
-  <div class="d-none d-md-block col-6 col-lg-9">
-    <a href="#"><img src="https://i.pinimg.com/originals/2c/fc/93/2cfc93d7665f5d7728782700e50596e3.png" height="150" style="float:left;">
+  <div class="d-none d-md-block col-6 col-lg-7">
+    <a href="index.html"> <img src="https://i.pinimg.com/originals/2c/fc/93/2cfc93d7665f5d7728782700e50596e3.png" height="150" style="float:left;">
     </a> <br>
-    <p  class="d-none d-lg-block mb-0 mt-30" style="font-family: 'Rock Salt', cursive; font-size:40px;">Welcome to our Bookstore</p>
+    <p  class="d-none d-lg-block mb-0 mt-30" style="font-family: 'Rock Salt', cursive; font-size:30px;">Welcome to our Bookstore</p>
   </div>
   
   <!-- _________Search_________________________________________________________________________________________________________________________-->
 
-  <div class="d-none d-md-block col-md-3 col-lg-2"> 
+  <div class="d-none d-md-block col-auto m-auto"> 
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
@@ -80,7 +87,7 @@
 
 <!-- _____My_Account__________________________________________________________________________________________-->
 
- <div class="dropdown mt-2 mt-md-0 d-block col-6 col-md-2 col-lg-1 ">
+ <div class="dropdown m-auto d-block col-6 col-md-2 col-lg-1 ">
   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     My account
   </button>
@@ -400,14 +407,14 @@
 
   <div class=" border col-md-12 col-6  d-block">
       <div class="mr-5"><img src="https://m.media-amazon.com/images/I/519ijxxoGcL.jpg" style="float:left; width:10rem; height:10rem; margin:10px;"> </div>
-      <h3>On the road</h3>
+      <h3>Chronicle of a Death Foretold</h3>
       
         <li>Author    Gabriel García Márquez</li>
         <li>Language  Spanish</li>
         <li>Category  Fiction</li>
         <li>Genre     Novel</li>
       <br>
-      <p class="d-none d-md-block" >Chronicle of a Death Foretold (Spanish: Crónica de una muerte anunciada) is a novella by Gabriel García Márquez, published in 1981. It tells, in the form of a pseudo-journalistic reconstruction, the story of the murder of Santiago Nasar by the Vicario twins. </p> 
+      <p class="d-none d-md-block" >Chronicle of a Death Foretold is a novella by Gabriel García Márquez, published in 1981. It tells, in the form of a pseudo-journalistic reconstruction, the story of the murder of Santiago Nasar by the Vicario twins. </p> 
       <p class=" d-inline-block text-danger col-9 " style=" font-size:5rem;">SALE</p> 
       <p class=" d-inline-block col-12 col-md-1" style=" font-size:5rem; "> &#36;10</p>
       
@@ -597,6 +604,11 @@
         <p class="text-dark text-center ml-auto align-self-center col-12 col-md-2"> &copy; All rights reserved</p>
       </div>
     </div>
+
+</div>
+
+
+
  <!--_______________________Modal__________________________________________ -->
 
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -671,33 +683,6 @@
     </div>
   </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
